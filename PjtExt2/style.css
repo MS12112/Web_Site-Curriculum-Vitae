@@ -1,0 +1,351 @@
+body{
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to right, #301dc1, #16bf2b); 
+}
+
+/* Definicição do tamanho da pagina */
+.Tela{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*Barra Lateral */
+.geral {
+    background-color: rgb(19, 19, 121);
+    width: 250px;
+    height:750px;
+    position:relative;
+    border-radius:15px ;
+    bottom: 12px;
+}
+
+/*Posição da Profissão */
+.proff  {
+    color: white;
+    position: relative;
+    top: -20px;
+    left: 27px;
+
+}
+
+/*Posiçao da imagem de Perfil */
+.foto {
+    position: relative;
+    top: -35px;
+    left: 24px;
+    border-radius: 5px;
+}
+
+/*Nome */
+.info {
+    color: white;
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10px;
+}
+
+/*Título Perfil */
+.info2 {
+    position: relative;
+    color: white;
+    top: -45px;
+}
+
+/*Cor de fundo as informaçoes Pessoais 1 */
+.impo{
+    background-color: blueviolet;
+    position: relative;
+}
+ /*Cor de fundo das informaçoes Pessoais 2 */
+.impo2 {
+    background-color: black;
+    border-radius: 5px;
+}
+
+/*Cor dos Links dos Projetos */
+.link {
+    color: white;
+    
+}
+
+/*Borda para o Título Perfil */
+.info2 p {
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+/*Posição do Resumo sobre mim */
+.cont1{
+    position:relative;
+    left: 8cm;
+    width: 800px;
+    bottom: 750px;
+    z-index: 2;
+}
+
+/*Borda e Cor do Resumo sobre mim 1 */
+.l1{
+    border-radius: 5px;
+    background-color: black;
+    width: 174px;
+    color: white;
+}
+
+/*Borda e Cor do Resumo sobre mim 2 */
+.l2{
+    border-radius: 5px;
+    background-color: black;
+    width: 40px;
+    color: white;   
+}
+
+/*Linha Horizontal 1 */
+.lin {
+    position: relative;
+    width: 17cm;
+    right: 2cm;
+}
+
+/*Linha Horizontal 2 */
+.lin2{
+    width: 26.4cm;
+}
+
+/*Título Educação */
+.cont2 {
+    position: relative;
+    bottom: 750px;
+    left: 8cm;
+    width: 1000px;
+}
+
+label {
+    position: absolute;
+    display: flex;
+    width: 1000px;
+}
+
+/*Posição da label */
+.exp {
+    position: relative;
+    bottom: 740px;
+    left: 8cm;
+    text-align: left;
+}
+
+/*Definição do tamanho das informações da Formação Escolar */
+.grad {
+    position: relative;
+    top: 20px;
+    right: 3cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Posição do logo da Instituição */
+.foto2 {
+    position: relative;
+    left: 21cm;
+    bottom: 730px;
+}
+
+.comp{
+    position: relative;
+    left: 8cm;
+    bottom: 730px;
+    width: 1000px;
+}
+
+/*Margem e espaçamento do bloco Competencias*/
+.exp li{
+    margin: 8px;
+    padding: 1px;
+}
+
+/*Gradiente e borda das competências*/
+.col {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: tranform 0.5s;
+}
+
+/*Animação das Competêcias*/
+.col:hover {
+    transform:scale(1.02);
+}
+
+/*Título: Cursos Extras Curriculares*/
+.cert {
+    position: relative;
+    left: 8cm;
+    bottom: 690px;
+    width: 1000px;
+}
+
+/*Definição da posição da Coluna 1 do bloco Cursos Extras Curriculares*/
+.exp2 {
+    position: relative;
+    left: 8cm;
+    bottom: 690px;
+}
+
+/*Definição da posição da Coluna 2 do bloco Cursos Extras Curriculares*/
+.exp3 {
+    position: relative;
+    left: 8cm;
+    bottom: 635px;
+}
+
+/*Definição da posição da Coluna 3 do bloco Cursos Extras Curriculares*/
+.exp4{
+    position: relative;
+    left: 8cm;
+    bottom: 565px;
+}
+
+/*Estilos da Coluna 1 do bloco Cursos Extras Curriculares */
+.exp2 li{
+    margin: 8px;
+    padding: 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: tranform 0.3s;
+    color: white;
+    background-color: #000;
+}
+
+/*Estilos da Coluna 2 do bloco Cursos Extras Curriculares */
+.exp3 li{
+    margin: 8px;
+    padding: 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: tranform 0.3s;
+    color: white;
+    background-color: #000;
+}
+
+/*Estilos da Coluna 3 do bloco Cursos Extras Curriculares */
+.exp4 li{
+    margin: 8px;
+    padding: 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: tranform 0.3s;
+    color: white;
+    background-color: #000;
+}
+
+/*Posição do Resumo dos Conhecimentos */
+.ex1{
+    position: relative;
+    left: 8cm;
+    bottom: 690px;
+    text-align: justify;
+    width: 1000px;
+    text-align: justify;
+}
+
+/*Título Habilidades */
+.hab {
+    position: relative;
+    left: 8cm;
+    bottom: 510px;
+    width: 1000px;
+}
+
+/*Bloco Habilidades */
+.exp5{
+    position: relative;
+    left: 9cm;
+    bottom: 500px;
+}
+
+/*Estilos das Habilidades */
+.exp5 li{
+    position: relative;
+    margin: 8px;
+    padding: 1px;
+    left: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: tranform 0.3s;
+    color: white;
+    background-color: #000;
+}
+
+/*Barra Lateral 2*/
+.geral2 {
+    background-color: rgb(19, 19, 121);
+    width: 250px;
+    height: 359px;
+    position:relative;
+    bottom: 23cm;
+    border-radius: 15px;
+    color: white;
+}
+
+/*Cor dos links do bloco Projetos*/
+.geral2 a {
+    color: white;
+}
+
+/*Cor de Fundo dos links do bloco Projetos*/
+.impo3 {
+    background-color: black;
+    text-align: center;
+}
+
+.foto3 {
+    position: relative;
+    left: 24.1cm;
+    bottom: 57.4cm;
+    z-index: -1;
+}
+
+.foto4{
+    position: relative;
+    bottom: 42cm;
+    left: 0.1cm;
+}
+
+.foto5 {
+    position:relative;
+    bottom: 38.1cm;
+    left: 5px;
+}
+
+.foto6 {
+    position: relative;
+    bottom: 58.4cm;
+    left: 0.4px;
+}
+
+.nac{
+    position: relative;
+    bottom: 72.7cm;
+    left: 8.1cm;
+}
+
+.temp{
+    position: relative;
+    bottom: 65cm;
+    left: 30cm;
+}
+
+.geral3 {
+    position: relative;
+    background-color:  rgb(19, 19, 121);
+    width: 36.4cm;
+    height: 1cm;
+    bottom: 40.4cm;
+    right: 1cm;
+}
